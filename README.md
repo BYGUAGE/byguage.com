@@ -1,1 +1,1 @@
-byguage.github.io/iisstart.html
+byguage.github.io
