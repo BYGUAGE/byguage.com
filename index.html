@@ -2,6 +2,8 @@
 <head>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="static/picture/tx_01.jpg" type="image/x-icon" />
+
+    <link href='https://paugram.com/usr/plugins/Pio/static/pio.css' rel='stylesheet' type='text/css'/>
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="yes" name="apple-touch-fullscreen">
     <meta content="telephone=no,email=no" name="format-detection">
@@ -13,10 +15,6 @@
     <meta http-equiv="Cache-Control" content="no-transform">
     <meta http-equiv="Cache-Control" content="no-siteapp">
 	
-    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
-    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script>
-
     <!--css-->
     <link rel="stylesheet" type="text/css" href="static/css/style.css" />
 
@@ -25,7 +23,7 @@
 
     <!--樱花-->
     <script src="static/js/yinghua.js"></script></head><body>
-    
+
     <div style="padding-top: 30px;">
         <center>
             <img src="static/picture/tx_01.jpg">
@@ -61,6 +59,7 @@
         </center>
     </div>
 
+
     <!--底部-->
     <footer>
     <h3 style="color: #6f6f6f;">
@@ -92,6 +91,16 @@
         return '<span><i>' + $.trim(html).split('').join('</i><i>') + '</i></span>';
     });
 </script>
-
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?4f910de46766824edd97c9df2fc244c5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><div class="pio-container left"><div class="pio-action"></div><canvas id="pio" width="160" height="250"></canvas></div><script src='https://paugram.com/usr/plugins/Pio/static/l2d.js'></script>
+<script src='https://paugram.com/usr/plugins/Pio/static/pio.js'></script>
+<script>var pio = new Paul_Pio({"mode":"fixed","hidden":true,"content":{"welcome":["欢迎来到主页","今天天气不错，一起来玩吧！","博主每天都有些折腾记录，欢迎前往他的小窝阅读~"],"link":"https://paul.ren/about","custom":[{"selector":".comment-form","text":"欢迎参与本文评论，别发小广告噢~"},{"selector":".home-social a:last-child","text":"在这里可以了解博主的日常噢~"},{"selector":".post-item a","type":"read"},{"selector":".post-content a, .page-content a","type":"link"}]},"night":"single.night()","model":["static/json/model.json"]});</script>
 </body>
 </html>
