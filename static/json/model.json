@@ -1,0 +1,32 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "https://paugram.com/usr/plugins/Pio/models/416/model.moc",
+  "textures": ["https://paugram.com/usr/plugins/Pio/models/416/model.1024/texture_00.png"],
+  "motions": {
+    "idle": [
+      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/login.mtn" },
+      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/shake.mtn" },
+      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/touch_1.mtn" },
+      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/touch_2.mtn" },
+      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/touch_3.mtn" },
+      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/touch_4.mtn" },
+      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/touch_5.mtn" },
+      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/wait_1.mtn" },
+      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/wait_2.mtn" },
+      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/wedding.mtn" },
+      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/wedding_touch.mtn" }
+    ],
+    "tap_body": [{ "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/daiji_idle_01.mtn" }]
+  },
+  "physics": "https://paugram.com/usr/plugins/Pio/models/416/physics.json",
+  "hit_areas": [
+    { "name": "head", "id": "D_REF.HEAD" },
+    { "name": "body", "id": "D_REF.BODY" }
+  ],
+  "hit_areas_custom": {
+    "head_x": [0, 0],
+    "head_y": [0, 0],
+    "body_x": [0, 0],
+    "body_y": [0, 0]
+  }
+}
