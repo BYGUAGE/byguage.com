@@ -1,6 +1,6 @@
 {
   "version": "Sample 1.0.0",
-  "model": "https://paugram.com/usr/plugins/Pio/models/416/model.moc",
+  "model": "model.moc",
   "textures": ["https://paugram.com/usr/plugins/Pio/models/416/model.1024/texture_00.png"],
   "motions": {
     "idle": [
