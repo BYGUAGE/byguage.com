@@ -1,22 +1,22 @@
 {
   "version": "Sample 1.0.0",
   "model": "model.moc",
-  "textures": ["texture_00.png"],
+  "textures": ["pio/texture_00.png"],
   "motions": {
     "idle": [
-      { "file": "Pio/login.mtn" },
-      { "file": "Pio/shake.mtn" },
-      { "file": "Pio/touch_1.mtn" },
-      { "file": "Pio/touch_2.mtn" },
-      { "file": "Pio/touch_3.mtn" },
-      { "file": "Pio/touch_4.mtn" },
-      { "file": "Pio/touch_5.mtn" },
-      { "file": "Pio/wait_1.mtn" },
-      { "file": "Pio/wait_2.mtn" },
-      { "file": "Pio/wedding.mtn" },
-      { "file": "Pio/wedding_touch.mtn" }
+      { "file": "pio/login.mtn" },
+      { "file": "pio/shake.mtn" },
+      { "file": "pio/touch_1.mtn" },
+      { "file": "pio/touch_2.mtn" },
+      { "file": "pio/touch_3.mtn" },
+      { "file": "pio/touch_4.mtn" },
+      { "file": "pio/touch_5.mtn" },
+      { "file": "pio/wait_1.mtn" },
+      { "file": "pio/wait_2.mtn" },
+      { "file": "pio/wedding.mtn" },
+      { "file": "pio/wedding_touch.mtn" }
     ],
-    "tap_body": [{ "file": "Pio/daiji_idle_01.mtn" }]
+    "tap_body": [{ "file": "pio/daiji_idle_01.mtn" }]
   },
   "physics": "physics.json",
   "hit_areas": [
