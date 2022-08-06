@@ -1,24 +1,24 @@
 {
   "version": "Sample 1.0.0",
   "model": "model.moc",
-  "textures": ["texture_00.png"],
+  "textures": ["Pio/texture_00.png"],
   "motions": {
     "idle": [
-      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/login.mtn" },
-      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/shake.mtn" },
-      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/touch_1.mtn" },
-      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/touch_2.mtn" },
-      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/touch_3.mtn" },
-      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/touch_4.mtn" },
-      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/touch_5.mtn" },
-      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/wait_1.mtn" },
-      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/wait_2.mtn" },
-      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/wedding.mtn" },
-      { "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/wedding_touch.mtn" }
+      { "file": "Pio/login.mtn" },
+      { "file": "Pio/shake.mtn" },
+      { "file": "Pio/touch_1.mtn" },
+      { "file": "Pio/touch_2.mtn" },
+      { "file": "Pio/touch_3.mtn" },
+      { "file": "Pio/touch_4.mtn" },
+      { "file": "Pio/touch_5.mtn" },
+      { "file": "Pio/wait_1.mtn" },
+      { "file": "Pio/wait_2.mtn" },
+      { "file": "Pio/wedding.mtn" },
+      { "file": "Pio/wedding_touch.mtn" }
     ],
-    "tap_body": [{ "file": "https://paugram.com/usr/plugins/Pio/models/416/motions/daiji_idle_01.mtn" }]
+    "tap_body": [{ "file": "Pio/daiji_idle_01.mtn" }]
   },
-  "physics": "https://paugram.com/usr/plugins/Pio/models/416/physics.json",
+  "physics": "physics.json",
   "hit_areas": [
     { "name": "head", "id": "D_REF.HEAD" },
     { "name": "body", "id": "D_REF.BODY" }
