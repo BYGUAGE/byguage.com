@@ -1,7 +1,7 @@
 {
   "version": "Sample 1.0.0",
   "model": "model.moc",
-  "textures": ["Pio/texture_00.png"],
+  "textures": ["texture_00.png"],
   "motions": {
     "idle": [
       { "file": "Pio/login.mtn" },
