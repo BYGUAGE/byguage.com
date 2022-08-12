@@ -43,7 +43,7 @@ var Paul_Pio = function (prop) {
                 dialog.innerText = text;
             }
             else{
-                dialog.innerText = "输入内容出现问题了 X_X";
+                dialog.innerText = "输入内容出现问题了 X~X";
             }
 
             dialog.classList.add("active");
