@@ -157,7 +157,7 @@ var Paul_Pio = function (prop) {
 
             // 关于我
             elements.info.onclick = function () {
-                modules.render("我只是一个虚拟人物");
+                modules.render("我只是一个虚拟形象呢~");
             };
             elements.info.onmouseover = function () {
                 modules.render("想了解更多关于我的信息吗？");
