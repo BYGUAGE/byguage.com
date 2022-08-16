@@ -1,1 +1,1 @@
-byguage.github.io
+qq.byguage.top
