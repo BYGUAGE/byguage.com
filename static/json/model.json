@@ -1,7 +1,7 @@
 {
   "version": "Sample 1.0.0",
   "model": "model.moc",
-  "textures": ["https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/7945836b8e2a61f6f2649e1b7fa6df11a00c541e5c65c19481b5276ff85486b78667bd59f021bpictype=scale&from=30113&version=3.3.3.3&f"],
+  "textures": ["https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/7945836b8e2a61f6f2649e1b7fa6df11a00c541e5c65c19481b5276ff85486b78678968995af1c31b454d67bd59f021b?pictype=scale&from=30113&version=3.3.3.3&fname=texture_00.png&size=750"],
   "motions": {
     "idle": [
       { "file": "pio/login.mtn" },
